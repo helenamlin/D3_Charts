@@ -1,0 +1,33 @@
+.chart-container {
+    margin: 20px;
+}
+
+#topHalf {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+
+#barChart, #scatterplot {
+    width: 50%; /* Adjust the width as needed */
+}
+
+#lineGraph {
+    width: 80%;
+    height: 50%;
+}
+
+
+.line {
+    fill: none;
+    stroke-width: 1; 
+}
+
+.line-temp-max {
+    stroke: orangered; 
+}
+
+.line-temp-min {
+    stroke: blue; 
+}

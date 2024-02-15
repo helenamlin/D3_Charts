@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization with D3.js</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+   <!-- Top Half Container -->
+    <div id="topHalf" class="chart-container">
+        <!-- Bar Chart Container -->
+        <div id="barChart" class="chart-container">
+            <h3>Monthly Precipitation</h3>
+            <p>This barchart illustrates the aggregated monthly precipitation in Atlanta from 2020 to 2022.</p>
+        </div>
+        
+        <!-- Scatterplot Container -->
+        <div id="scatterplot" class="chart-container">
+            <h3>Pressure vs. Dewpoint</h3>
+            <p>This scatterplot investigates the correlation between atmospheric pressure and dewpoint temperature in Atlanta during the 2020-2022 period. Additionally, it visualizes the temperature range difference in color and the precipitation amount in size.</p>
+        </div>
+    
+    </div>
+
+    <!-- Line Graph Container -->
+    <div id="lineGraph" class="chart-container">
+        <h3>Max and Min Temperature Over Time</h3>
+        <p>This line graph visualizes the maximum and minimum temperatures in Atlanta over the three year period (2020-2022), illustrating temperature trends.</p>
+    </div>
+
+    <script src="charts.js"></script>
+</body>
+</html>
